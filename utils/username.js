@@ -9,10 +9,10 @@ function getrandomusername(){
 }
 
 
-console.log(getrandomusername());
-console.log(getrandomusername());
-console.log(getrandomusername());
-console.log(getrandomusername());
+// console.log(getrandomusername());
+// console.log(getrandomusername());
+// console.log(getrandomusername());
+// console.log(getrandomusername());
 
 exports=module.exports={ 
     getrandomusername

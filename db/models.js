@@ -28,6 +28,7 @@ const Users=db.define('user',{
     id:COL_ID_DEF,
     username:USERNAME_DEF
 
+    
 })
 
 
@@ -36,7 +37,8 @@ const Posts=db.define('posts',{
     id:COL_ID_DEF,
     title:TITLE_DEF,
     body:{ 
-        type:Sequelize.TEXT('tiny')
+        type:Sequelize.TEXT('tiny'),
+        allowNull:false
     }
 })
 
